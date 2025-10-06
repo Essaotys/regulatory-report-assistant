@@ -5,9 +5,8 @@ export default function App() {
   const [result, setResult] = useState(null);
   const [history, setHistory] = useState([]);
 
-//This is the URL of the backend server (FastAPI) running locally on port 8000.
-  const backendBase = "http://127.0.0.1:8000";
-
+//This is the URL of the backend server (FastAPI) running on Render.
+const backendBase = "https://regulatory-report-assistant-swfz.onrender.com";
 
 //This method is responsible for sending the report to backend /process-report,Save the response in 'result'
 // and refresh the report history

@@ -1,4 +1,4 @@
-# Regulatory Report Assistant (Starter)
+# Regulatory Report Assistant.
 
 This starter project contains a simple backend (FastAPI) and a frontend (React) to implement
 the "Mini Regulatory Report Assistant" take-home assignment.
@@ -14,7 +14,7 @@ regulatory-report-assistant/
 │   ├── public/index.html
 │   └── src/
 │       ├── index.js
-│       └── App.js
+│       └── App.js       
 └── README.md
 ```
 
@@ -54,12 +54,12 @@ regulatory-report-assistant/
    ```
 2. The React app expects the backend to run at `http://127.0.0.1:8000`.
 
-## Notes & Next Steps
-- The backend uses simple rule-based extraction (regex + symptom lexicon). Replace with NLP libraries (spaCy/HuggingFace) for better extraction.
-- Add tests, Dockerfile, CI/CD, and deploy to Render/Heroku (backend) and Vercel/Netlify (frontend).
-- Add translations using an API (like Google Translate) if allowed.
+### Live Demo
+Backend: https://regulatory-report-assistant-swfz.onrender.com/docs
+Frontend: https://regulatory-report-assistant-frontend-c7ji9pphi.vercel.app
 
-## Example CURL
-```bash
-curl -X POST http://127.0.0.1:8000/process-report -H "Content-Type: application/json" -d '{"report":"Patient experienced severe nausea and headache after taking Drug X. Patient recovered."}'
-```
+
+## Screenshots
+![image01](screenshots/image01.png)
+![image2](screenshots/image2.png)
+![image3](screenshots/image3.png)
